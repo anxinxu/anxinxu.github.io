@@ -14,12 +14,12 @@
      */
   var demoContent = [
     {
-      demo_link: 'https://codepen.io/haoyang/pen/jrvrQq',
-      img_link: 'https://ooo.0o0.ooo/2016/11/24/5836d81f48cd2.png',
-      code_link: 'https://codepen.io/haoyang/pen/jrvrQq',
-      title: 'Fisher-Yates 洗牌算法动画',
-      core_tech: 'JavaScript',
-      description: 'Fisher-Yates 洗牌算法动画。算法详情见 <a href ="https://gaohaoyang.github.io/2016/10/16/shuffle-algorithm/">这里</a>。'
+      demo_link: 'http://blog.csdn.net/al4fun/article/details/53888990',
+      img_link: 'http://img.blog.csdn.net/20161226202655700?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYWw0ZnVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast',
+      code_link: 'http://blog.csdn.net/al4fun/article/details/53888990',
+      title: 'Android：NestedScrolling机制',
+      core_tech: 'Android',
+      description: '如今，NestedScrolling机制(可以称为嵌套滚动或嵌套滑动)在各种app中的应用已经十分广泛了'
     }, {
       demo_link: 'http://gaohaoyang.github.io/test/headerTransition/',
       img_link: 'https://ooo.0o0.ooo/2016/06/20/5768c1597d1fe.png',
