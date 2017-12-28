@@ -9,7 +9,7 @@
 title: "AnXin"
 brief-intro: "不乱于心,不困于情,不畏将来,不念过往,如此,安好."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://anxinxu.github.io/blog/" # the base hostname & protocol for your site
+url: "https://anxinxu.github.io/anxin.github.io/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
