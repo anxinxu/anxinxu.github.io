@@ -5,6 +5,8 @@
 2.头部添加以下内容，放入_post目录中
 
 3.必须有四行空行
+
+4.
 ```markdown
 
 ---
@@ -18,6 +20,9 @@ tags: Baidu ife HTML CSS task
 * content
 {:toc}
 
+概述。。。。
+
+![](http://images.frandroid.com/wp-content/uploads/2016/04/android_studio_wide.png)
 
 
 

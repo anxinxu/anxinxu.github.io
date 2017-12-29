@@ -11,6 +11,8 @@ tags: future
 
 今年的今年又是以后的以后，少年该奋斗了
 
+![](https://tse3-mm.cn.bing.net/th?id=OIP.7k-y8m5e4T6uws-Eeh2buAE-DE&p=0&o=5&pid=1.1)
+
 
 
 
