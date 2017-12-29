@@ -3,6 +3,8 @@
 1.文件名year_month_day_title.md
 
 2.头部添加以下内容，放入_post目录中
+
+3.必须有四行空行
 ```markdown
 
 ---
@@ -15,6 +17,10 @@ tags: Baidu ife HTML CSS task
 
 * content
 {:toc}
+
+
+
+
 
 ```
 
