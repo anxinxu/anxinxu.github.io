@@ -4,6 +4,7 @@ title:  "今年已过，未来又在何方"
 date:   2017-12-29 14:37:05
 categories: blog
 tags: future
+share: true
 ---
 
 * content
