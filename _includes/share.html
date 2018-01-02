@@ -1,14 +1,20 @@
 {% if page.share %}
-<script src="/assets/js/jquery.qrcode.min.js"></script>
-<div id="code"></div>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.qrcode.min.js"></script>
+
+<div id="qrcode"></div>
 
 <script type="text/javascript">
-  $("#code").qrcode({
-    width: 150,
-    height: 150,
-    text: "https://anxinxu.github.io{{ page.url }}"
-  });
-
+  $('#qrcode').qrcode(location.href);
 </script>
+
+<!--<script type="text/javascript">-->
+  <!--$("#code").qrcode({-->
+    <!--width: 150,-->
+    <!--height: 150,-->
+    <!--text: "https://anxinxu.github.io{{ page.url }}"-->
+  <!--});-->
+
+<!--</script>-->
 <h2 id="share">Share2</h2>
 {% endif %}
