@@ -1,8 +1,7 @@
 {% if page.share %}
-<script type="text/javascript" src="/js/qrcode.js"></script>
-<script type="text/javascript" src="/js/qrcode.min.js"></script>
 
-<div id="qrcode"></div>
+<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
 	text: "https://anxinxu.github.io{{ page.url }}"，
