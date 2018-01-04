@@ -1,24 +1,16 @@
 {% if page.share %}
-<script type="text/javascript" src="/js/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery.qrcode.min.js"></script>
-<script type="text/javascript" src="jquery.min.js"></script>
-<script type="text/javascript" src="jquery.qrcode.min.js"></script>
-<script type="text/javascript" src="../js/jquery.qrcode.js"></script>
 <script type="text/javascript" src="/js/qrcode.js"></script>
+<script type="text/javascript" src="/js/qrcode.min.js"></script>
 
 <div id="qrcode"></div>
 
 <script type="text/javascript">
-  $('#qrcode').qrcode(location.href);
+  $("#code").qrcode({
+    width: 150,
+    height: 150,
+    text: "https://anxinxu.github.io{{ page.url }}"
+  });
+
 </script>
-
-<!--<script type="text/javascript">-->
-  <!--$("#code").qrcode({-->
-    <!--width: 150,-->
-    <!--height: 150,-->
-    <!--text: "https://anxinxu.github.io{{ page.url }}"-->
-  <!--});-->
-
-<!--</script>-->
 <h2 id="share">Share2</h2>
 {% endif %}
