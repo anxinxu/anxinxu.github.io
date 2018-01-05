@@ -1,46 +1,30 @@
 {% if page.share %}
 
-<!--<div id="qrcode" style="width:128px; height:128px; margin-top:15px;"></div>-->
-
-<!--&lt;!&ndash;<script type="text/javascript">&ndash;&gt;-->
-<!--&lt;!&ndash;var qrcode = new QRCode(document.getElementById("qrcode"), {&ndash;&gt;-->
-	<!--&lt;!&ndash;text: "anxinxu"，&ndash;&gt;-->
-	<!--&lt;!&ndash;width: 128,&ndash;&gt;-->
-	<!--&lt;!&ndash;height: 128,&ndash;&gt;-->
-	<!--&lt;!&ndash;colorDark : "#000000",&ndash;&gt;-->
-	<!--&lt;!&ndash;colorLight : "#ffffff",&ndash;&gt;-->
-	<!--&lt;!&ndash;correctLevel : QRCode.CorrectLevel.H&ndash;&gt;-->
-<!--&lt;!&ndash;});&ndash;&gt;-->
+<div class="alignCenter" id="qrcode" style="width:128px; height:128px; margin-top:15px;"></div>
 
 <!--<script type="text/javascript">-->
 <!--var qrcode = new QRCode(document.getElementById("qrcode"), {-->
-	<!--width : 128,-->
-	<!--height : 128-->
+	<!--text: "anxinxu"，-->
+	<!--width: 128,-->
+	<!--height: 128,-->
+	<!--colorDark : "#000000",-->
+	<!--colorLight : "#ffffff",-->
+	<!--correctLevel : QRCode.CorrectLevel.H-->
 <!--});-->
 
-<!--function makeCode () {-->
-	<!--var url = 'https://anxinxu.github.io{{ page.url }}';-->
-	<!--qrcode.makeCode(url);-->
-<!--}-->
-
-<!--makeCode();-->
-
-<!--</script>-->
-
-<!-- Baidu Button BEGIN -->
-<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare alignRight">
-	<a class="bds_qzone"></a>
-	<a class="bds_kaixin001"></a>
-	<a class="bds_tsina"></a>
-	<a class="bds_tqq"></a>
-	<a class="bds_renren"></a>
-	<span class="bds_more">更多</span>
-</div>
-<script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
-<script type="text/javascript" id="bdshell_js"></script>
 <script type="text/javascript">
-        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
-    </script>
-<!-- Baidu Button END -->
+var qrcode = new QRCode(document.getElementById("qrcode"), {
+	width : 128,
+	height : 128
+});
+
+function makeCode () {
+	var url = 'https://anxinxu.github.io{{ page.url }}';
+	qrcode.makeCode(url);
+}
+
+makeCode();
+
+</script>
 
 {% endif %}
