@@ -1,30 +1,44 @@
 {% if page.share %}
 
-<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+<!--<div id="qrcode" style="width:128px; height:128px; margin-top:15px;"></div>-->
+
+<!--&lt;!&ndash;<script type="text/javascript">&ndash;&gt;-->
+<!--&lt;!&ndash;var qrcode = new QRCode(document.getElementById("qrcode"), {&ndash;&gt;-->
+	<!--&lt;!&ndash;text: "anxinxu"，&ndash;&gt;-->
+	<!--&lt;!&ndash;width: 128,&ndash;&gt;-->
+	<!--&lt;!&ndash;height: 128,&ndash;&gt;-->
+	<!--&lt;!&ndash;colorDark : "#000000",&ndash;&gt;-->
+	<!--&lt;!&ndash;colorLight : "#ffffff",&ndash;&gt;-->
+	<!--&lt;!&ndash;correctLevel : QRCode.CorrectLevel.H&ndash;&gt;-->
+<!--&lt;!&ndash;});&ndash;&gt;-->
 
 <!--<script type="text/javascript">-->
 <!--var qrcode = new QRCode(document.getElementById("qrcode"), {-->
-	<!--text: "anxinxu"，-->
-	<!--width: 128,-->
-	<!--height: 128,-->
-	<!--colorDark : "#000000",-->
-	<!--colorLight : "#ffffff",-->
-	<!--correctLevel : QRCode.CorrectLevel.H-->
+	<!--width : 128,-->
+	<!--height : 128-->
 <!--});-->
 
-<script type="text/javascript">
-var qrcode = new QRCode(document.getElementById("qrcode"), {
-	width : 120,
-	height : 120
-});
+<!--function makeCode () {-->
+	<!--var url = 'https://anxinxu.github.io{{ page.url }}';-->
+	<!--qrcode.makeCode(url);-->
+<!--}-->
 
-function makeCode () {
-	var url = 'https://anxinxu.github.io{{ page.url }}';
-	qrcode.makeCode(url);
-}
+<!--makeCode();-->
 
-makeCode();
+<!--</script>-->
 
-</script>
-<h2 id="share">Share2</h2>
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32" align="right">
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_cqq"></a>
+	<a class="jiathis_button_qq"></a>
+	<a class="jiathis_button_fb"></a>
+	<a class="jiathis_button_twitter"></a>
+	<a class="jiathis_button_copy"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
 {% endif %}
