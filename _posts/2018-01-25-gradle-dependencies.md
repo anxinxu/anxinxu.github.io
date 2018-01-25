@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Gradle dependencies之implement、api 和compile区别"
-date:   2018-01-25 16:37:05
-categories: blog
+date:   2018-01-25 17:47:05
+categories: gradle
 tags: gradle
 share: true
 ---
