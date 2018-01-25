@@ -27,17 +27,11 @@ Gradle dependencies之implement、api 和compile区别
 
 
 在3.0以前的`gradle dependencies`中声明写法
-```groovy {class:"line-numbers"}
+```groovy
 
 compile fileTree(dir: 'libs', include: ['*.jar'])
 
 ```
-{% raw %}
-{% codeblock [lang:groovy] [title] [url] [link text] [start:1]  [linenos:true] %}
-compile fileTree(dir: 'libs', include: ['*.jar'])
-compile fileTree(dir: 'libs', include: ['*.jar'])
-code snippet
-code snippet
-code snippet
+{% codeblock %}
+Awesome code snippet
 {% endcodeblock %}
-{% endraw %}
