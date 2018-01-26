@@ -28,10 +28,20 @@ Gradle dependencies之implement、api 和compile区别
 
 在3.0以前的`gradle dependencies`中声明写法
 ```groovy
-
 compile fileTree(dir: 'libs', include: ['*.jar'])
-
 ```
+在3.0之后`gradle dependencies`中声明写法
+```groovy
+implementation fileTree(dir: 'libs', include: ['*.jar'])
+or
+api fileTree(dir: 'libs', include: ['*.jar'])
+```
+在3.0之后`compile`指令就是过时的了，当然从它引出了`api`和`implementation`下面就讲讲新的指令表示的意思和用法
+
+### api
+
+
+
 {% codeblock %}
 Awesome code snippet
 {% endcodeblock %}
