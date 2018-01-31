@@ -25,7 +25,7 @@ Gradle dependencies之implement、api 和compile区别
 2017年google大会后，Android studio版本更新至3.0。现在gradle工具也升级到了3.0.1，
 在3.0.1中使用了最新的Gradle 4.1里程碑版本作为gradle的编译版本，该版本gradle编译速度有所加速，更加欣喜的是完全支持Java8。
 
-> ###参考
+> ### 参考
 >> #### [google android developer](https://developer.android.com/studio/build/gradle-plugin-3-0-0-migration.html#new_configurations)
 >> #### [gradle docs](https://docs.gradle.org/current/userguide/java_library_plugin.html#sec:java_library_separation)
 >> #### [http://blog.csdn.net/marvinhq/article/details/73477128](http://blog.csdn.net/marvinhq/article/details/73477128)
