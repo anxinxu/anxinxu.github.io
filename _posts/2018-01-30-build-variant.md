@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "全局修改Gradle Maven 仓库地址"
-date:   2018-01-25 16:37:05
+date:   2018-01-30 16:37:05
 categories: gradle
 tags: gradle variant flavor
 share: true
