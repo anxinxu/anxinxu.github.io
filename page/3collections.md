@@ -11,7 +11,7 @@ type: page
 
 ## 工具
 
-##Linux
+## Linux
     
 * [Linux命令大全](http://man.linuxde.net/)
 
