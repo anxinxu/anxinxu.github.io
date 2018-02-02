@@ -28,9 +28,15 @@ Git Bash版本控制管理
 
 ### git init
 
+把当前目录变成Git可以管理的仓库
+
 ### git status
 
 ### git add
+
+### clone
+
+### git log
 
 ### git reset
 
@@ -96,7 +102,6 @@ Git Bash版本控制管理
 
    基于进度创建分支。
 
-### git log
 
 ### git push 
 
@@ -110,6 +115,8 @@ Git Bash版本控制管理
 
 ### git pull
 
+从远程仓库更新本地的代码
+
 ### git update-index
 
    #### git update-index --assume-unchanged xxxx.md
@@ -120,4 +127,18 @@ Git Bash版本控制管理
    
    取消暂时忽略`xxxx.md`文件中的更改，再次跟踪它的修改
    
+### git remote
 
+   #### git remote add origin [ 远程仓库地址 ]
+  添加远程仓库地址，保存在origin变量中
+    
+##推送本地工程到GitHub仓库
+git init                   # 本地仓库初始化，执行完后会在工程目录下生成一个.git的隐藏目录
+
+git add .               # 添加所有文件到本地索引，命令用法：git add <file>
+
+git commit -m "My first commit operation"   # 提交修改到本地仓库，-m选项添加提交注释
+
+git remote add origin git@github.com:xiahouzuoxin/mp3-encode.git   # 添加远程仓库地址，保存在origin变量中
+
+git push origin master      # 按照前一条命令中origin给定的github地址推送到github仓库的master分支
