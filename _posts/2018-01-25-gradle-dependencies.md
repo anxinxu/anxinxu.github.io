@@ -86,3 +86,41 @@ dependencies {
 > 各个依赖关系的图
 > ![](https://docs.gradle.org/current/userguide/img/java-library-ignore-deprecated-main.png)
 
+### transitive
+transitive dependencies 被称为依赖的依赖，称为“间接依赖”比较合适。
+
+```
+compile('com.xxxxx.xxxxx.xxxxx:xxxxx:xxxx@aar'){
+        transitive = true
+        exclude module: 'xxxxxx'
+        exclude module: 'xxxxxx'
+        exclude group:'com.xxxxx.xxxxxxxx' module:'xxxxxx'
+    }
+```
+>在后面加上`@aar`，意指你只是下载该`aar`包，而并不下载该`aar`包所依赖的其他库，那如果想在使用`@aar`的前提下还能
+下载其依赖库，则需要添加`transitive=true`的条件。 
+
+### 排除 transitive dependencies 
+通过configuration或者dependency可以除去 transitive dependencies：
+````
+build.gradle
+
+configurations {
+    compile.exclude module: 'xxxxx'
+    all*.exclude group: 'com.xxxxx.xxxxx.xxxxx', module: 'xxxxx'
+}
+
+dependencies {
+    compile('com.xxxxx.xxxxx.xxxxx:xxxxx:xxxx@aar') {
+        exclude module: 'xxxx_model'
+    }
+}
+````
+>如果在configuration中定义一个exclude,那么所有依赖的transitive dependency (指定的)都会被去除。 
+>定义exclude时候，或只指定group, 或只指定module名字，或二者都指定。
+
+
+
+
+
+
