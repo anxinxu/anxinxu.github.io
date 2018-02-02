@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Annotation in Android"
-date:   2018-01-31 16:04:00
+date:   2018-02-02 18:04:00
 categories: annotation
 tags: 注解 annotation
 share: true
@@ -67,13 +67,15 @@ share: true
 
 
 #### 自定义注解
-在新建一个lib_annotation `module`，并新建一个`TestSourceAnnotation.java`注解，如下：
+new a module type : `Java Library` name : `lib_annotation` ，并新建一个`TestSourceAnnotation.java`注解，如下：
 ```java
 @Retention(RetentionPolicy.SOURCE)
 @Target(ElementType.TYPE)
 public @interface TestSourceAnnotation {
 }
 ```
+
+新建一个
 
 
 
