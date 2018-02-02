@@ -115,6 +115,8 @@ Git Bash版本控制管理
 ### git push 
 
 把本地仓库的更新推到服务器仓库
+  #### git push --set-upstream origin develop
+  设置`git push`/`git pull`默认行为 ，默认从`origin develop`更新或者提交 ，也可以用`git push -u origin develop`
 
   #### git push origin dev:dev
 提交本地dev分支作为远程的dev分支
@@ -159,4 +161,4 @@ git commit -m "My first commit operation"   # 提交修改到本地仓库，-m�
 
 git remote add origin git@github.com:xiahouzuoxin/mp3-encode.git   # 添加远程仓库地址，保存在origin变量中
 
-git push origin master      # 按照前一条命令中origin给定的github地址推送到github仓库的master分支
+git push -u origin master      # 按照前一条命令中origin给定的github地址推送到github仓库的master分支
