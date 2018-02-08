@@ -433,14 +433,14 @@ Java代码生成借助square公司的JavaPoet开源库
 
 创建方法中肯定不可缺少倒包`JavaPoet` 帮我们定义了如下几种专门描述类型的类。其关系图如下:
 
-|分类|生成的类型|JavaPoet写法|Java写法|
+|分类|生成的类型|`JavaPoet`写法|`Java`写法|
 |-|-|-|-|
-|内置类型|int|TypeName.INT|int.class|
-|数组类型|int[]|ArrayTypeName.of(int.class)|int[].class|
-|需要引入包名的类型|java.io.File|ClassName.get(“java.io”, “File”)|java.io.File.class|
-|参数化类型 （ParameterizedTypeName）|List<String>|ParameterizedTypeName.get(List.class, String.class)|-|
-|类型变量 （TypeVariableName）泛型|T|TypeVariableName.get(“T”)|-|
-|通配符类型|? extends String|WildcardTypeName.subtypeOf(String.class)|-|
+|内置类型|`int`|`TypeName.INT`|`int.class`|
+|数组类型|`int[]`|`ArrayTypeName.of(int.class)`|`int[].class`|
+|需要引入包名的类型|`java.io.File`|`ClassName.get(“java.io”, “File”)`|`java.io.File.class`|
+|参数化类型 `ParameterizedTypeName`|`List<String>`|`ParameterizedTypeName.get(List.class, String.class)`|-|
+|类型变量 `TypeVariableName`泛型|T|`TypeVariableName.get(“T”)`|-|
+|通配符类型|`? extends String`|`WildcardTypeName.subtypeOf(String.class)`|-|
 
 >这些类型之间可以相互嵌套， 比如 `ParameterizedTypeName.get(List.class, String.class)` 其中 `List.class` 等价于 `ClassName.get("java.util", "List")`。 因此，
 >`ParameterizedTypeName.get(List.class, String.class)`   
