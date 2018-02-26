@@ -25,6 +25,12 @@ Git Bash版本控制管理
 工作中用到哪个忘记了就随时添加
 
 > [廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+>
+> [git reset、git checkout和git revert区别和联系](https://www.cnblogs.com/houpeiyong/p/5890748.html)
+>
+> [git rebase简介](http://blog.csdn.net/hudashi/article/details/7664631)
+>
+> [git book](http://gitbook.liuhui998.com/index.html)
 
 ### git init
 
@@ -48,10 +54,26 @@ Git Bash版本控制管理
 ### git log
 
 ### git reset
+ 1. `git reset HEAD <file>...`
+ 
+### git checkout
+
+ 1. `git checkout dev`
+ 切换到dev分支
+ 
+ 2. `git checkout -b dev`
+ 创建并且切换到dev分支
+ 
+ 3. `git checkout -- <file>...`
+ 撤销工作区的修改，暂存区的不会撤销（add）
+ 
+ 
+### git revert
+
 
 ### git commit
 
-   1. `git commit -a` 
+ 1. `git commit -a` 
    
  可以快速提交本地所有修改过的文件
  
@@ -62,7 +84,7 @@ Git Bash版本控制管理
 ### git branch
   显示本地所有的分支
   
-  1. `git branch -a `
+ 1. `git branch -a `
  显示本地和远程仓库所有的分支
  
  2. `git branch dev`
@@ -70,14 +92,6 @@ Git Bash版本控制管理
     
  3. `git branch -d dev`
  删除`dev`分支
- 
-### git checkout
-
- 1. `git checkout dev`
- 切换到dev分支
- 
- 2. `git checkout -b dev`
- 创建并且切换到dev分支
 
 ### git merge
    1. `git merge dev`
@@ -136,6 +150,8 @@ Git Bash版本控制管理
  1. 把你 commit 到本地仓库的内容，取出来放到暂存区(stash)（这时你的工作区是干净的） 
  2. 然后从远端拉取代码到本地，由于工作区是干净的，所以不会有冲突 
  3. 从暂存区把你之前提交的内容取出来，跟拉下来的代码合并
+ 
+ ### git rebase 
 
 ### git update-index
 
@@ -152,7 +168,7 @@ Git Bash版本控制管理
    1. `git remote add origin [ 远程仓库地址 ]`
   添加远程仓库地址，保存在origin变量中
     
-##推送本地工程到GitHub仓库
+## 推送本地工程到GitHub仓库
 1. `git init `                  # 本地仓库初始化，执行完后会在工程目录下生成一个.git的隐藏目录
 
 2. `git add . `              # 添加所有文件到本地索引，命令用法：git add <file>
