@@ -31,6 +31,8 @@ Git Bash版本控制管理
 > [git rebase简介](http://blog.csdn.net/hudashi/article/details/7664631)
 >
 > [git book](http://gitbook.liuhui998.com/index.html)
+>
+> [git官方文档](https://git-scm.com/book/zh/v2)
 
 ### git init
 
