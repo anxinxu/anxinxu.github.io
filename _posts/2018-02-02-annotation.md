@@ -67,7 +67,7 @@ share: true
 
 
 #### @Retention
-1. new a module type : `Java Library` name : `lib_annotation` ，并新建`TestSourceAnnotation.java`：
+  1. new a module type : `Java Library` name : `lib_annotation` ，并新建`TestSourceAnnotation.java`：
 ```java
 @Retention(RetentionPolicy.SOURCE)
 @Target(ElementType.TYPE)
@@ -91,7 +91,7 @@ public @interface TestRuntimeAnnotation {
 }
 ```
 
-2. new test class
+  2. new test class
 
 `TestSourceAnnotationClass.java`
 ```java
@@ -114,7 +114,7 @@ public class TestRuntimeAnnotationClass {
 }
 ```
 
-3. 然后编译一下生成class文件`compileJava`task
+  3. 然后编译一下生成class文件`compileJava`task
 
 ![](https://github.com/anxinxu/resource/blob/master/blog_image/annotation/gradle_build_task.png?raw=true)
 
@@ -143,11 +143,11 @@ public class TestClassAnnotationClass {
 public class TestRuntimeAnnotationClass {
 }
 ```
-4. 结果发现如下：
+  4. 结果发现如下：
   * `RetentionPolicy.SOURCE` ： 对比发现注解`@TestSourceAnnotation()`已经不存在了，使注解仅存在与java源码中。
   * `RetentionPolicy.CLASS`和`RetentionPolicy.RUNTIME` 的class中注解依然存在。接下来分析它两的区别：
   
-5. 注解信息的获取
+  5. 注解信息的获取
 ```java
 public class TestAnnotation {
 
