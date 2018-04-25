@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "全局修改Gradle Maven 仓库地址"
+title:  "Build Variants（构建变种版本）"
 date:   2018-01-30 16:37:05
 categories: gradle
 tags: gradle variant flavor
