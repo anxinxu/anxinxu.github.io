@@ -274,7 +274,7 @@
       img_link: 'https://tip.duke.edu/independent_learning/language_arts/wj2_lesson/annotation_icon_final.jpg',
       code_link: 'https://github.com/anxinxu/annotation',
       title: 'Annotation',
-      core_tech: 'Android',
+      core_tech: 'Annotation',
       description: '现在annotation在Android越来越普遍和主流了，学习下Annotation API 和 自定义 Annotation'
     }
   ];
