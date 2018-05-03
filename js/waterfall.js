@@ -270,12 +270,12 @@
 //      description: ''
 //    },
 //    {
-//      demo_link: 'http://blog.csdn.net/al4fun/article/details/53888990',
-//      img_link: 'http://img.blog.csdn.net/20161226202655700?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYWw0ZnVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast',
-//      code_link: 'http://blog.csdn.net/al4fun/article/details/53888990',
-//      title: 'Android：NestedScrolling机制',
-//      core_tech: 'Android',
-//      description: '如今，NestedScrolling机制(可以称为嵌套滚动或嵌套滑动)在各种app中的应用已经十分广泛了'
+      demo_link: 'https://anxinxu.github.io/2018/02/02/annotation/',
+      img_link: 'https://tip.duke.edu/independent_learning/language_arts/wj2_lesson/annotation_icon_final.jpg',
+      code_link: 'https://github.com/anxinxu/annotation',
+      title: 'Annotation',
+      core_tech: 'Android',
+      description: '现在annotation在Android越来越普遍和主流了，学习下Annotation API 和 自定义 Annotation'
 //    }
   ];
 
