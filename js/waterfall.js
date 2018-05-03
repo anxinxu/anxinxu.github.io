@@ -269,14 +269,14 @@
 //      core_tech: '',
 //      description: ''
 //    },
-    {
-      demo_link: 'http://blog.csdn.net/al4fun/article/details/53888990',
-      img_link: 'http://img.blog.csdn.net/20161226202655700?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYWw0ZnVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast',
-      code_link: 'http://blog.csdn.net/al4fun/article/details/53888990',
-      title: 'Android：NestedScrolling机制',
-      core_tech: 'Android',
-      description: '如今，NestedScrolling机制(可以称为嵌套滚动或嵌套滑动)在各种app中的应用已经十分广泛了'
-    }
+//    {
+//      demo_link: 'http://blog.csdn.net/al4fun/article/details/53888990',
+//      img_link: 'http://img.blog.csdn.net/20161226202655700?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYWw0ZnVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast',
+//      code_link: 'http://blog.csdn.net/al4fun/article/details/53888990',
+//      title: 'Android：NestedScrolling机制',
+//      core_tech: 'Android',
+//      description: '如今，NestedScrolling机制(可以称为嵌套滚动或嵌套滑动)在各种app中的应用已经十分广泛了'
+//    }
   ];
 
   contentInit(demoContent) //内容初始化
