@@ -11,6 +11,14 @@ type: page
 
 ## 工具
 
+## Android
+### widget
+ * [Android Edittext 长按没有弹出上下文菜单](https://www.jianshu.com/p/e334134a4ef7)
+
+### 性能优化
+ * [Android性能优化](http://hukai.me/android-performance-patterns/)
+ * [BlockCanary — 轻松找出Android App界面卡顿元凶](https://www.jianshu.com/p/cd7fc77405ac)
+
 ## Linux
     
 * [Linux命令大全](http://man.linuxde.net/)
@@ -93,8 +101,6 @@ type: page
 * [Randy](http://djyde.github.io/)
 
     95年出生的全栈。卢涛南，英文名 Randy，用 djyde 这个ID混迹于网络。
-
-* [Android性能优化](http://hukai.me/android-performance-patterns/)
 
 * [Git and Python(廖雪峰)](https://www.liaoxuefeng.com)
 
