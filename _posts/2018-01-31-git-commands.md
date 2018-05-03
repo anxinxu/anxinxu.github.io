@@ -34,6 +34,17 @@ Git Bash版本控制管理
 >
 > [git官方文档](https://git-scm.com/book/zh/v2)
 
+### git config
+
+1. `git config -e`
+使用vim打开当前仓库的配置，可查看url
+
+2. `git config --global alias.co checkout`
+配置缩写，使用co代替checkout
+
+3. `git config --global -l`
+查看全局git配置
+
 ### git init
 
 把当前目录变成Git可以管理的仓库
