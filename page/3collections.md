@@ -12,6 +12,8 @@ type: page
 ## 工具
 
 ## Android
+### Android官方培训课程
+* [Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/index.html)
 ### widget
  * [Android Edittext 长按没有弹出上下文菜单](https://www.jianshu.com/p/e334134a4ef7)
 
